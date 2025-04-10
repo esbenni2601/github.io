@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - mind4escape</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kontakt</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="angebote.html">Angebote</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>So erreichen Sie uns:</h2>
+        <p>Bei Fragen oder zur Buchung von Beratungsterminen können Sie uns per E-Mail oder telefonisch kontaktieren.</p>
+
+        <p>E-Mail: <a href="mailto:info@mind4escape.de">info@mind4escape.de</a></p>
+        <p>Telefon: +49 123 456789</p>
+
+        <h3>Kontaktformular:</h3>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Absenden</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 mind4escape</p>
+    </footer>
+</body>
+</html>
